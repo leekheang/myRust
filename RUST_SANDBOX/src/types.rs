@@ -21,5 +21,12 @@ pub fn run() {
     println!("result is {}", _z + 1.0 );
     println!("Max i32: {}",std::i32::MAX);
     println!("Max i64: {}",std::i64::MAX);
-
+    //boolean 
+    let is_active: bool = true ;
+    // Get boolean from expression
+    let is_greater: bool = 5 > 10;
+    // emoji
+    let face = '\u{1F600}';
+    let a1 = 'a';
+    println!("{:?}", (_x , _z  , is_active , is_greater , a1 , face))
 }
