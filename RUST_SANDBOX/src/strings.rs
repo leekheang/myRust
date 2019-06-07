@@ -27,6 +27,6 @@ pub fn run() {
     s.push('a');
     s.push('b');
     // Assetion testing
-    assert_eq!(2, s.len());
+    assert_eq!(2, s.len()); //eq == 
     println!("{}", s);
 }
