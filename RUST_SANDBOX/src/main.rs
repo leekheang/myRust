@@ -8,8 +8,8 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod structs;
-
+// mod structs;
+mod enums;
 fn main() {
     // print::run();
     // vars::run();
@@ -21,6 +21,7 @@ fn main() {
     // conditionals::run();
     // loops::run();
     // functions::run();
-    structs::run();
+    // structs::run();
+    enums::run();
     
 }
